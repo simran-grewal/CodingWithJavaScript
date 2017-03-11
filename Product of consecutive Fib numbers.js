@@ -1,3 +1,4 @@
+/*
 The Fibonacci numbers are the numbers in the following integer sequence (Fn):
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
@@ -16,10 +17,10 @@ If you don't find two consecutive F(m) verifying F(m) * F(m+1) = prodyou will re
 
 [F(m), F(m+1), false] or {F(n), F(n+1), 0} or (F(n), F(n+1), False)
 
+*/
 
-
-******************************************************************
-solution:)
+//******************************************************************
+//solution:)
 
 
 function productFib(prod){
@@ -33,7 +34,7 @@ function productFib(prod){
 }
 
 
-*******************************************************************
+//*******************************************************************
 
 function productFib(prod){
   let [a, b] = [0, 1];
