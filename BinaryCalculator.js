@@ -1,3 +1,7 @@
+https://www.codewars.com/kata/binary-calculator/train/javascript
+
+
+
 function calculate(n1, n2, o) {
   return {
     'add'     : function(a,b){ return a+b },
